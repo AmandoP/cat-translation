@@ -1,0 +1,2841 @@
+1.1 Bausteine eines Computers
+1.1 Components of a computer
+
+
+
+
+1.1 Bausteine eines Computers
+1.1 Components of a computer
+
+
+
+
+Inhaltsverzeichnis
+Table of contents
+
+Lektion 1 - Das Problem definieren4
+Lesson 1 - Define the problem4
+
+Untersuchung von Naturkatastrophen    6
+Investigation of natural disasters  6
+
+Trockenheit in Europa    7
+Drought in Europe  7
+
+Lektion 2 - Existierende Lösungen betrachten10
+Lesson 2 - Looking at existing solutions10
+
+Entwurfsprozess    12
+Design process  12
+
+Frühwarnsysteme    13
+Early warning systems  13
+
+Lektion 3 - Calliope mini: Eingabe und Ausgabe16
+Lesson 3 - Calliope mini: Input and output16
+
+Calliope mini: Eingabe    18
+Calliope mini: Input  18
+
+Calliope mini: Ausgabe    18
+Calliope mini: Output  18
+
+Programmierumgebung: MakeCode    19
+programming environment: MakeCode  19
+
+Lektion 4 - Calliope mini: Sensoren22
+Lesson 4 - Calliope mini: Sensors22
+
+Erdbeben in Europa    24
+Earthquake in Europe  24
+
+Lektion 5 - Calliope mini: Touch-Pins29
+Lesson 5 - Calliope mini: Touch pins29
+
+Exkurs: Funk    34
+Excursus: Radio  34
+
+Lektion 6 - Eigene Frühwarnsysteme38
+Lesson 6 - Own early warning systems38
+
+Teil 1: Entwirf dein eigenes Frühwarnsystem    39
+Part 1: Design your own early warning system  39
+
+Teil 2: Umsetzung deines eigenen Frühwarnsystems    43
+Part 2: Implement your own early warning system  43
+
+Lektion 7 - Präsentation des Prototypen46
+Lesson 7 - Presentation of the prototype46
+
+Notizen48
+Notes48
+
+Weitere Informationen54
+Further information54
+
+
+
+
+Autorinnen und Autor:
+Authors:
+
+Hilah BarbotFranka FutterliebAmando Pascotto
+Hilah BarbotFranka FutterliebAmando Pascotto
+
+Begleitendes Zusatzmaterial inklusive Leitfäden für den Unterricht, Programmcodes und Lösungen können auf der Webseite aufgerufen werden: calliope.cc/schulen/aktionen/cfca
+Accompanying supplementary material including teaching guides, program codes and solutions can be accessed on the website: calliope.cc/schools/actions/cfca
+
+
+
+
+Lizenziert unter Creative Commons Namensnennung 4.0 International
+Licensed under Creative Commons Attribution 4.0 International
+
+Calliope gGmbH
+Calliope gGmbH
+
+
+
+
+Lizenziert unter Creative Commons Namensnennung 4.0 International
+Licensed under Creative Commons Attribution 4.0 International
+
+Calliope gGmbH
+Calliope gGmbH
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Lektion 1 - Das Problem definieren
+Lesson 1 - Define the problem
+
+
+
+
+Lektion 1
+Lesson 1
+
+
+
+
+1
+1
+
+
+
+
+Schaue aufmerksam das Video über Extremwetter.
+Watch the video about extreme weather carefully.
+
+Was fällt dir auf und worüber wunderst du dich? Notiere in Stichpunkten.
+What do you notice and what do you wonder about? Make a note in bullet points.
+
+
+
+
+Was ist dir aufgefallen?
+What did you notice?
+
+
+
+
+Das Problem definieren
+Define the problem
+
+
+
+
+Worüber wunderst du dich?
+What are you wondering about?
+
+
+
+
+Wie haben sich die Auswirkungen vonNaturkatastrophen auf die Bevölkerungverändert?
+How have the effects ofnatural disasters on the populationchanged?
+
+
+
+
+Was fühlst du? Nutze Emojis, um deine Gefühle auszudrücken. &#128532;
+What do you feel? Use emojis to express your feelings. &#128532;
+
+
+
+
+Lektion 1 - Das Problem definieren
+Lesson 1 - Define the problem
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Untersuchung von Naturkatastrophen  
+Investigation of natural disasters  
+
+
+
+
+Trockenheit in Europa  
+Drought in Europe  
+
+
+
+
+2
+2
+
+
+
+
+Betrachte die folgenden Bilder und kreuze an, ob zu viel Niederschlag oder zu wenig Niederschlag diese Ereignisse begünstigt.
+Look at the following pictures and mark whether too much precipitation or too little precipitation favors these events.
+
+
+
+
+Norden
+North
+
+
+
+
+Waldbrand
+Forest fire
+
+
+
+
+Osten
+East
+
+
+
+
+zu viel Niederschlag
+Too much precipitation
+
+
+
+
+zu wenig Niederschlag
+Too little precipitation
+
+
+
+
+Westen
+West
+
+
+
+
+Abweichung der Niederschlagssumme im Februar 2023 gegenüber dem langjährigen Mittel in mm
+Deviation of the precipitation sum in February 2023 compared to the long-term average in mm
+
+
+
+
+Erdrutsch
+Landslide
+
+
+
+
+Süden
+South
+
+
+
+
+Quelle: WetterOnline
+Source: WeatherOnline
+
+
+
+
+zu viel Niederschlag
+Too much precipitation
+
+
+
+
+3
+3
+
+
+
+
+Wie wirkt sich der Klimawandel im Laufe der Zeit auf die Niederschlagsmenge in Europa aus?
+How will climate change affect the amount of precipitation in Europe over time?
+
+
+
+
+zu wenig Niederschlag
+Too little precipitation
+
+
+
+
+Dürre
+Drought
+
+
+
+
+4
+4
+
+
+
+
+Welche Gebiete auf der Karte sind am ehesten von Überschwemmungen betroffen? 
+Which areas on the map are most likely to be affected by flooding? 
+
+
+
+
+zu viel Niederschlag
+Too much precipitation
+
+
+
+
+zu wenig Niederschlag
+Too little precipitation
+
+
+
+
+5
+5
+
+
+
+
+Welche Gebiete auf der Karte sind am ehesten von Dürren und/oder Waldbränden betroffen?
+Which areas on the map are most likely to be affected by droughts and/or forest fires?
+
+
+
+
+Bildquellen:
+Image sources:
+
+Waldbrand: https://www.needpix.com/photo/1741227/
+Forest fire: https://www.needpix.com/photo/1741227/
+
+Erdrutsch: https://commons.wikimedia.org/wiki/File:2014_Landslide_in_Washington_State_-_13715379615.jpg Dürre: https://commons.wikimedia.org/wiki/File:Drought_land_dry_mud_BOUHANIFIA_Algeria.jpg
+Landslide: https://commons.wikimedia.org/wiki/File:2014_Landslide_in_Washington_State_-_13715379615.jpg Drought: https://commons.wikimedia.org/wiki/File:Drought_land_dry_mud_BOUHANIFIA_Algeria.jpg
+
+
+
+
+Lektion 1 - Das Problem definieren
+Lesson 1 - Define the problem
+
+
+
+
+Lektion 1 - Das Problem definieren
+Lesson 1 - Define the problem
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Was hast du heute erfahren, das du dir unbedingt merken möchtest?Verwende die Fachbegriffe bei der Beantwortung der Fragen.
+What have you learned today that you really want to remember? Use the technical terms when answering the questions.
+
+
+
+
+9
+9
+
+
+
+
+Wie kann Technologie uns helfen, die Folgen von Naturkatastrophen für Mensch und Tier abzumildern?
+How can technology help us to mitigate the consequences of natural disasters for humans and animals?
+
+
+
+
+Naturkatastrophe: Ein natürlich auftretendes Ereignis, das negative Auswirkungen auf Menschen, Tiere oder die Umwelt haben könnte.
+Natural disaster: A naturally occurring event that could have a negative impact on humans, animals or the environment.
+
+Mildern oder abschwächen: Etwas weniger schlimm oder weniger schädlich machen.
+Mitigate or lessen: To make something less bad or less harmful.
+
+Niederschlag: Regen, Schnee, Graupel oder Hagel, der auf den Boden fällt.
+Precipitation: Rain, snow, sleet or hail falling on the ground.
+
+Frühwarnsystem (FWS): Ein technologisches System zur Überwachung von Naturkatastrophen und zur Übermittlung von Informationen, um Menschen darauf vorzubereiten.
+Early Warning System (EWS): A technological system for monitoring natural disasters and transmitting information to prepare people for them.
+
+Widerstandsfähigkeit: Die Fähigkeit, schwierige Bedingungen auszuhalten oder sich schnell davon zu erholen.
+Resilience: The ability to withstand or quickly recover from difficult conditions.
+
+
+
+
+Du hast selbst herausgefunden, dass Teile von Europa von Dürre betroffen sind. Wie kannst du im Alltag Wasser sparen?
+You found out yourself that parts of Europe are affected by drought. How can you save water in everyday life?
+
+
+
+
+6
+6
+
+
+
+
+Welche Naturkatastrophen haben durch die Zunahme der Niederschläge infolge des Klimawandels zugenommen?
+Which natural disasters have increased due to the increase in precipitation as a result of climate change?
+
+
+
+
+Scanne den QR-Code!
+Scan the QR code!
+
+
+
+
+Welche Naturkatastrophen haben aufgrund der Abnahme der Niederschläge infolge des Klimawandels zugenommen?
+Which natural disasters have increased due to the decrease in precipitation as a result of climate change?
+
+
+
+
+7
+7
+
+
+
+
+Was hast du über bestehende Frühwarnsysteme gelernt?
+What have you learned about existing early warning systems?
+
+
+
+
+8
+8
+
+
+
+
+Lektion 1 - Das Problem definieren
+Lesson 1 - Define the problem
+
+
+
+
+Lektion 1 - Das Problem definieren
+Lesson 1 - Define the problem
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Lektion 2 - Existierende Lösungen betrachten
+Lesson 2 - Looking at existing solutions
+
+
+
+
+Lektion 2
+Lesson 2
+
+
+
+
+EXISTIERENDE LÖSUNGEN
+EXISTING SOLUTIONS
+
+
+
+
+Welche Frühwarnsysteme gibt es?
+What early warning systems are there?
+
+
+
+
+Quelle: https://www.barefootcomputing.org/resources/computational-thinking-poster
+Source: https://www.barefootcomputing.org/resources/computational-thinking-poster
+
+
+
+
+Computational Thinking bedeutet, ein Problem in so einfache und eindeutig beschriebene Schritte zu zerlegen, dass ein Computer es verstehen würde. Bei der Programmierung eines technischen Geräts schreiben Programmierer:innen eine Reihe von Anweisungen und Befehlen und bestimmen so den genauen Ablauf des Programms. In dieser Lektion entwickelst du Ideen für eine technische Anwendung, um die Auswirkungen des Klimawandels und seine Folgen abzuschwächen!
+Computational Thinking means breaking down a problem into such simple and clearly described steps that a computer would understand it. When programming a technical device, programmers write a series of instructions and commands and thus determine the exact sequence of the program. In this lesson, you will develop ideas for a technical application to mitigate the effects of climate change and its consequences!
+
+Um dieses Ziel zu erreichen, werdet ihr als Programmierer:innen und Gestalter:innen ein Frühwarnsystem entwerfen.
+To achieve this goal, you as programmers and designers will design an early warning system.
+
+
+
+
+Überlege dir Hashtags (#) für Frühwarnsysteme.
+Think about hashtags (#) for early warning systems.
+
+
+
+
+#Regenalarm
+#Rain alarm
+
+
+
+
+Lektion 2 - Existierende Lösungen betrachten
+Lesson 2 - Looking at existing solutions
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Entwurfsprozess  
+Design process  
+
+
+
+
+Frühwarnsysteme  
+Early warning systems  
+
+
+
+
+1
+1
+
+
+
+
+Du hast unterschiedliche Frühwarnsysteme kennengelernt. Wie funktionieren diese? Weise die folgende Bestandteile und Funktionen den Frühwarnsystemen zu:
+You have learned about different early warning systems. How do they work? Assign the following components and functions to the early warning systems:
+
+
+
+
+Bestandteile
+Components
+
+Sensoren
+Sensors
+
+Internet
+Internet
+
+Telefone
+Telephones
+
+Cloud-Daten
+Cloud data
+
+	(im Internet gespeicherte Daten)
+	(data stored on the Internet)
+
+Lautsprecher
+Loudspeaker
+
+Warnsignal (Ton, Bild, Vibration, Licht)
+Warning signal (sound, image, vibration, light)
+
+
+
+
+Funktionen
+Functions
+
+Wasserstand, Erschütterungen oder Gase
+Water level, vibrations or gases
+
+	messen
+	measure
+
+Daten übermitteln
+Transfer data
+
+Warnmeldung erhalten
+Warning message received
+
+Warnmeldungen laut abspielen
+Play warning messages loudly
+
+Daten verarbeiten
+Process data
+
+Feuerwehr benachrichtigen
+Notify the fire department
+
+
+
+
+Problemdefinieren
+Define problem
+
+
+
+
+Recherche
+Research
+
+
+
+
+Ergebnisse teilen
+Share results
+
+
+
+
+Ideeentwickeln undauswählen
+Develop andselect idea.
+
+
+
+
+Entwurfs-prozess
+Design process
+
+
+
+
+Verbessern
+Improve
+
+
+
+
+2
+2
+
+
+
+
+Übermittlung der Daten Überprüfung der Gefahr
+Transmission of data Verification of the risk
+
+
+
+
+3
+3
+
+
+
+
+Modell und Prototyp bauen
+Build model and prototype
+
+
+
+
+Besteht Gefahr, wird dieBevölkerung alarmiert
+If there is danger, thepopulation is alerted
+
+
+
+
+Testen
+Testing
+
+
+
+
+1
+1
+
+
+
+
+Der Entwurfsprozess umfasst eine Reihe von Schritten, die von Gestalter:innen als Leitfaden für die Entwicklung einer Lösung verwendet werden. Die blauen Pfeile zeigen den Ablauf der Schritte, wobei die Schritte oft wiederholt werden müssen, wenn die Dinge nicht so laufen wie geplant!
+The design process comprises a series of steps that designers use as a guide for developing a solution. The blue arrows show the sequence of steps, whereby the steps must be repeated often if things do not go as planned!
+
+Lerne die einzelnen Schritte des Entwurfsprozesses kennen. Nutze das Arbeitsheft, um diese zu dokumentieren und deine Ergebnisse mit anderen zu teilen.
+Get to know the individual steps of the design process. Use the workbook to document these and share your results with others.
+
+
+
+
+4
+4
+
+
+
+
+Sensoren messenden Wasserstand
+Sensors measurethe water level
+
+
+
+
+Bevölkerung kann sichin Sicherheit bringen
+Population can getto safety
+
+
+
+
+Quelle: https://aws.amazon.com/de/blogs/publicsector/tepmachcha-an-open-source-ultrasonic-stream-gauge-flood-warning-system/
+Source: https://aws.amazon.com/de/blogs/publicsector/tepmachcha-an-open-source-ultrasonic-stream-gauge-flood-warning-system/
+
+
+
+
+TepmachchaTepmachcha ist ein solarbetriebenes, mit Sonar arbeitendes Messgerät, das bei Flut die Menschen in gefährdeten Gebieten über das Internet und Mobiltelefone frühzeitig vor Hochwasser warnt.
+TepmachchaTepmachcha is a solar-powered, sonar-based measuring device that gives people in areas at risk early warning of flooding via the internet and cell phones.
+
+
+
+
+Bestandteile
+Components
+
+
+
+
+Funktionen
+Functions
+
+
+
+
+- Sensoren
+- Sensors
+
+
+
+
+Lektion 2 - Existierende Lösungen betrachten
+Lesson 2 - Looking at existing solutions
+
+
+
+
+Lektion 2 - Existierende Lösungen betrachten
+Lesson 2 - Looking at existing solutions
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+GrilloDer Grillo-Sensor ist ein Messgerät, ein sogenanntes Seismometer, für starke Bewegungen. Der Sensor ist über eine Internet of Things (IoT)-Plattform verbunden und überträgt die Daten nahezu in Echtzeit.
+GrilloThe Grillo sensor is a measuring device, a so-called seismometer, for strong movements. The sensor is connected via an Internet of Things (IoT) platform and transmits the data almost in real time.
+
+
+
+
+Was hast du heute erfahren, das du dir unbedingt merken möchtest?Verwende die Fachbegriffe bei der Beantwortung der Fragen.
+What have you learned today that you really want to remember? Use the technical terms when answering the questions.
+
+
+
+
+Computational Thinking: Ein Prozess zur Problemlösung, den Programmierer:innen verwenden und der eine Reihe von Konzepten und Ansätzen umfasst.
+Computational Thinking: A problem-solving process used by programmers that encompasses a range of concepts and approaches.
+
+Programmier:innen: Personen, die den Code schreiben, ändern und testen, damit die Computersoftware richtig funktioniert.
+Programmer:inside: People who write, modify and test the code so that the computer software works properly.
+
+Entwurfsprozess: Eine Reihe von Schritten, die Gestalter:innen zur Problemlösung verwenden.
+Design process: A series of steps that designers use to solve problems.
+
+Gestalter:innen: Personen, die Maschinen oder andere Geräte entwickeln, bauen und in Stand halten.
+Designers: People who develop, build and maintain machines or other devices.
+
+
+
+
+Bestandteile
+Components
+
+
+
+
+Funktionen
+Functions
+
+
+
+
+- Sensoren
+- Sensors
+
+
+
+
+2
+2
+
+
+
+
+Computational Thinking - Muster erkennen: Welche gemeinsamen Bestandteile und Funktionen haben die vorgestellten Frühwarnsysteme?
+Computational Thinking - recognizing patterns: What are the common components and functions of the early warning systems presented?
+
+
+
+
+DryadDer Gassensor funktioniert wie eine winzige „Nase“, die Gase in der Luft riecht und Waldbrände erkennt. 
+DryadThe gas sensor works like a tiny "nose" that smells gases in the air and detects forest fires. 
+
+
+
+
+Verbesserung: Wie könntest du eines der untersuchten Frühwarnsysteme verbessern?
+Improvement: How could you improve one of the investigated early warning systems?
+
+
+
+
+3
+3
+
+
+
+
+Bestandteile
+Components
+
+
+
+
+Funktionen
+Functions
+
+
+
+
+- Sensoren
+- Sensors
+
+
+
+
+Überlege dir Symbole oder Farben, die du mit Gefahr in Verbindung setzt.Welche Symbole und Farben kannst du nutzen, wenn die Gefahr vorüber ist?Male und schreibe.
+Think about symbols or colors that you associate with danger.Which symbols and colors can you use when the danger is over?Draw and write.
+
+
+
+
+Bildquellen:
+Image sources:
+
+Grillo: https://aws.amazon.com/de/blogs/aws/how-grillo-built-a-low-cost-earthquake-early-warning-system-on-aws
+Grillo: https://aws.amazon.com/de/blogs/aws/how-grillo-built-a-low-cost-earthquake-early-warning-system-on-aws
+
+Dryad: https://www.bosch.com/de/stories/waldbraende-verhindern-waldbrandfrueherkennung
+Dryad: https://www.bosch.com/de/stories/waldbraende-verhindern-waldbrandfrueherkennung
+
+
+
+
+Lektion 2 - Existierende Lösungen betrachten
+Lesson 2 - Looking at existing solutions
+
+
+
+
+Lektion 2 - Existierende Lösungen betrachten
+Lesson 2 - Looking at existing solutions
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Lektion 3
+Lesson 3
+
+
+
+
+Wie könnten wir den Calliope mini nutzen, um ein Frühwarnsystem zu entwickeln und die Zugänglichkeit zu verbessern?
+How could we use the Calliope mini to develop an early warning system and improve accessibility?
+
+
+
+
+Calliope mini eingaben und Ausgaben
+Calliope mini inputs and outputs
+
+
+
+
+1
+1
+
+
+
+
+Praxisbeispiel: Lies den folgenden Artikel aufmerksam durch.
+Practical example: Read the following article carefully.
+
+
+
+
+Hochwasser-Gefahr in NRW: Unwetter-Warnung wegen Dauerregen am Samstag
+Danger of flooding in NRW: Storm warning due to continuous rain on Saturday
+
+
+
+
+„Für Samstag rechnete der Deutsche Wetterdienst in NRW wieder mit neuen kräftigen Niederschlägen. ,Aufgrund der gesättigten Böden wird es morgen voraussichtlich zu einem teilweise deutlichen (Wieder-)Anstieg der Gewässer in NRW kommen‘, hieß es am Freitag in einem Lagebericht des Landesamtes Lanuv. Hochwasser sei vor allem im Einzugsgebiet von Sieg und Ruhr zu erwarten.”
+"The German Weather Service in North Rhine-Westphalia is expecting more heavy rainfall on Saturday. ,Due to the saturated soils, there will probably be a significant (re-)rise in water levels in NRW tomorrow', according to a situation report by the state office Lanuv on Friday. Flooding is to be expected above all in the Sieg and Ruhr catchment areas."
+
+
+
+
+Den Calliope mini kennenlernen.
+Get to know the Calliope mini.
+
+
+
+
+Januar 2023: Zeitungsartikel aus Hamm (Stadt in Nordrhein-Westfalen)
+January 2023: Newspaper article from Hamm (city in North Rhine-Westphalia)
+
+
+
+
+Wie überall in Deutschland wurden mehrere Hinweisschilder aufgestellt, um die Bevölkerung auf die drohende Gefahr durch Überflutung aufmerksam zu machen. Immer wieder kommt es aber vor, dass Autofahrer:innen die Schilder übersehen oder sich an sie gewöhnt haben. Das liegt auch daran, dass die Schilder auch dann immer da sind, wenn es keine Überflutungsgefahr gibt und die Vorbeifahrenden sie nicht mehr wahrnehmen.
+As everywhere in Germany, several signs were put up to alert the population to the imminent danger of flooding. Time and again, however, drivers overlook the signs or become accustomed to them. This is also due to the fact that the signs are always there, even when there is no danger of flooding and passers-by no longer notice them.
+
+Hilfreich wäre ein Schild, das bei drohender Überflutung Aufmerksamkeit erzielt und so nicht übersehen wird.
+It would be helpful to have a sign that attracts attention when flooding is imminent so that it is not overlooked.
+
+
+
+
+Lektion 3 - Calliope mini: Eingabe und Ausgabe
+Lesson 3 - Calliope mini: Input and output
+
+
+
+
+Welche Fragen hast du? Was weißt du bereits über Sensoren und Technologie? Wie könnte dieses Schild funktionieren? Welche Sinne könnte das Schild ansprechen - Sehen, Hören, Tasten, Schmecken, Riechen?
+What questions do you have? What do you already know about sensors and technology? Wie könnte dieses Schild funktionieren? Welche Sinne könnte das Schild ansprechen - Sehen, Hören, Tasten, Schmecken, Riechen?
+
+
+
+
+2
+2
+
+
+
+
+Bildquelle:
+Bildquelle:
+
+Überflutung: https://pixabay.com/de/photos/hochwasser-straße-gesperrt-schaden-123224
+Überflutung: https://pixabay.com/de/photos/hochwasser-straße-gesperrt-schaden-123224
+
+
+
+
+Lektion 3 - Calliope mini: Eingabe und Ausgabe
+Lesson 3 - Calliope mini: Eingabe und Ausgabe
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Mache dich vertraut mit den einzelnen Bestandteilen des Calliope mini.
+Mache dich vertraut mit den einzelnen Bestandteilen des Calliope mini.
+
+
+
+
+3
+3
+
+
+
+
+Programmierumgebung: MakeCode  
+programming environment: MakeCode  
+
+
+
+
+Calliope mini: Eingabe  
+Calliope mini: Eingabe  
+
+
+
+
+Mit der Programmierumgebung MakeCode schreibst du Anweisungen, die der Calliope mini versteht und ausführen kann. MakeCode findest du unter der folgenden Internetadresse:
+Mit der Programmierumgebung MakeCode schreibst du Anweisungen, die der Calliope mini versteht und ausführen kann. MakeCode findest du unter der folgenden Internetadresse:
+
+
+
+
+Calliope mini: Ausgabe  
+Calliope mini: Ausgabe  
+
+
+
+
+Scanne den QR-Code!
+Scan the QR code!
+
+
+
+
+makecode.calliope.cc
+makecode.calliope.cc
+
+
+
+
+Lektion 3 - Calliope mini: Eingabe und Ausgabe
+Lesson 3 - Calliope mini: Eingabe und Ausgabe
+
+
+
+
+Lektion 3 - Calliope mini: Eingabe und Ausgabe
+Lesson 3 - Calliope mini: Eingabe und Ausgabe
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Was hast du heute erfahren, das du dir unbedingt merken möchtest?Verwende die Fachbegriffe bei der Beantwortung der Fragen.
+What have you learned today that you really want to remember? Use the technical terms when answering the questions.
+
+
+
+
+5
+5
+
+
+
+
+Computational Thinking - Algorithmen: Erkläre, welche Befehle dein Algorithmus dem Calliope mini gibt und auf welche Probleme du gestoßen bist.
+Computational Thinking - Algorithmen: Erkläre, welche Befehle dein Algorithmus dem Calliope mini gibt und auf welche Probleme du gestoßen bist.
+
+
+
+
+System: Ein aus mehreren Teilen bestehendes Werk, das gemeinsam eine Funktion erfüllt.
+System: Ein aus mehreren Teilen bestehendes Werk, das gemeinsam eine Funktion erfüllt.
+
+Hardware: Jedes Element eines technischen Systems, das physisch ist (etwas, das man anfassen kann).
+Hardware: Jedes Element eines technischen Systems, das physisch ist (etwas, das man anfassen kann).
+
+Software: Eine Reihe von Anweisungen, Daten oder Programmen, die einem Computer sagen, wie er arbeiten soll.
+Software: Eine Reihe von Anweisungen, Daten oder Programmen, die einem Computer sagen, wie er arbeiten soll.
+
+Event: Eine Aktion oder ein Ereignis, das von einem Computerprogramm erkannt wird.
+Event: Eine Aktion oder ein Ereignis, das von einem Computerprogramm erkannt wird.
+
+Schleife: Eine Art von Code, der eine Reihe von Befehlen wiederholt, bis er gestoppt wird.
+Schleife: Eine Art von Code, der eine Reihe von Befehlen wiederholt, bis er gestoppt wird.
+
+Barrierefreiheit: Die Zugangsmöglichkeit für eine möglichst große Zielgruppe, in der auch Menschen mit Beeinträchtigungen wie z.B. Sehschwäche, Schwerhörigkeit berücksichtigt werden. 
+Barrierefreiheit: Die Zugangsmöglichkeit für eine möglichst große Zielgruppe, in der auch Menschen mit Beeinträchtigungen wie z.B. Sehschwäche, Schwerhörigkeit berücksichtigt werden. 
+
+Eingabe: Daten oder Informationen, die zur Verarbeitung an den Calliope mini (oder einen Computer) gesendet werden.
+Input: Data or information that is sent to the Calliope mini (or a computer) for processing.
+
+Ausgabe: Daten oder Aktionen, die vom Calliope mini (oder einem Computer) nach der Verarbeitung ausgegeben oder ausgeführt werden.
+Output: Data or actions that are output or executed by the Calliope mini (or a computer) after processing.
+
+Prozessor: Hardware, die das „Denken” für einen Computer übernimmt.
+Processor: Hardware that does the "thinking" for a computer.
+
+Algorithmus: Eine Reihe von Anweisungen oder Regeln, denen der Computer folgt.
+Algorithm: A set of instructions or rules that the computer follows.
+
+
+
+
+Link zum Programm:
+Link to the program:
+
+https://makecode.calliope.cc/_aTCdmL7FRhVE
+https://makecode.calliope.cc/_aTCdmL7FRhVE
+
+
+
+
+4
+4
+
+
+
+
+Wenn du über die Barrierefreiheit des blinkenden Warnschildes nachdenkst, was sind die Vor- und Nachteile der einzelnen Ausgabemöglichkeiten?
+When you think about the accessibility of the flashing warning sign, what are the advantages and disadvantages of the individual output options?
+
+Stell dir vor, einer deiner Sinne wäre beeinträchtigt.
+Imagine if one of your senses was impaired.
+
+
+
+
+Was möchtest du dir für dein Frühwarnsystem merken?Denke an den Code und die Gestaltung - Ablauf des Codes, Farbe, Symbol, Ton.
+What do you want to remember for your early warning system? Think about the code and the design - code sequence, color, symbol, sound.
+
+
+
+
+Vorteile
+Advantages
+
+
+
+
+Nachteile
+Disadvantages
+
+
+
+
+LEDs
+LEDs
+
+
+
+
+-erregen viel Aufmerksamkeit
+-attract a lot of attention
+
+
+
+
+Was fandest du besonders spannend?
+What did you find particularly exciting?
+
+
+
+
+Woran hast du etwas länger getüftelt?
+What did you tinker with a little longer?
+
+
+
+
+Töne
+Töne
+
+
+
+
+-funktioniert bei Tag und Nacht
+-funktioniert bei Tag und Nacht
+
+
+
+
+Lektion 3 - Calliope mini: Eingabe und Ausgabe
+Lesson 3 - Calliope mini: Eingabe und Ausgabe
+
+
+
+
+Lektion 3 - Calliope mini: Eingabe und Ausgabe
+Lesson 3 - Calliope mini: Eingabe und Ausgabe
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Lektion 4
+Lektion 4
+
+
+
+
+Wie können wir ein System bauen, das die Umwelt kontinuierlich überwacht, um Gefahren zu erkennen und die Bevölkerung zu warnen?
+Wie können wir ein System bauen, das die Umwelt kontinuierlich überwacht, um Gefahren zu erkennen und die Bevölkerung zu warnen?
+
+
+
+
+1
+1
+
+
+
+
+Praxisbeispiel: Lies den folgenden Artikel aufmerksam durch.
+Praxisbeispiel: Lies den folgenden Artikel aufmerksam durch.
+
+
+
+
+Die Grillo Erdbebenwarnung
+Die Grillo Erdbebenwarnung
+
+
+
+
+CALLIOPE MINISENSOREN
+CALLIOPE MINISENSOREN
+
+
+
+
+Grillo hat ein kostengünstiges Frühwarnsystem mit Sensoren entwickelt, die in Gebäuden in der Nähe seismisch aktiver Zonen angebracht werden. Die Grillo-Sensoren kosten etwa 300 Euro (im Vergleich: herkömmliche Seismometer kosten etwa 10.000 Euro). Dank dieser preiswerten Sensoren kann Grillo eine höhere Dichte an Sensoren bieten, was die Zeit bis zur Alarmierung verkürzt und den Menschen mehr Zeit zum Handeln gibt. Dies kommt der Bevölkerung zugute, da eine höhere Dichte die Genauigkeit der Standortbestimmung erhöht, die Zahl der Fehlalarme verringert und die Zeit bis zur Alarmierung verkürzt wird.
+Grillo hat ein kostengünstiges Frühwarnsystem mit Sensoren entwickelt, die in Gebäuden in der Nähe seismisch aktiver Zonen angebracht werden. Die Grillo-Sensoren kosten etwa 300 Euro (im Vergleich: herkömmliche Seismometer kosten etwa 10.000 Euro). Dank dieser preiswerten Sensoren kann Grillo eine höhere Dichte an Sensoren bieten, was die Zeit bis zur Alarmierung verkürzt und den Menschen mehr Zeit zum Handeln gibt. Dies kommt der Bevölkerung zugute, da eine höhere Dichte die Genauigkeit der Standortbestimmung erhöht, die Zahl der Fehlalarme verringert und die Zeit bis zur Alarmierung verkürzt wird.
+
+
+
+
+Die Sensoren des Calliope mini steuern.
+Die Sensoren des Calliope mini steuern.
+
+
+
+
+Welche Fragen hast du? Was meinst du, messen die Sensoren? Was denkst du, warum manche Länder Frühwarnsysteme haben und manche nicht? 
+Welche Fragen hast du? Was meinst du, messen die Sensoren? Was denkst du, warum manche Länder Frühwarnsysteme haben und manche nicht? 
+
+
+
+
+2
+2
+
+
+
+
+Lektion 4 - Calliope mini: Sensoren
+Lesson 4 - Calliope mini: Sensors
+
+
+
+
+Bildquelle:
+Bildquelle:
+
+Grillo: https://aws.amazon.com/de/blogs/aws/how-grillo-built-a-low-cost-earthquake-early-warning-system-on-aws/
+Grillo: https://aws.amazon.com/de/blogs/aws/how-grillo-built-a-low-cost-earthquake-early-warning-system-on-aws/
+
+
+
+
+Lektion 4 - Calliope mini: Sensoren
+Lesson 4 - Calliope mini: Sensors
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Erdbeben in Europa  
+Erdbeben in Europa  
+
+
+
+
+Mache dich vertraut mit den Sensoren des Calliope mini.
+Mache dich vertraut mit den Sensoren des Calliope mini.
+
+
+
+
+3
+3
+
+
+
+
+Calliope mini: Sensoren
+Calliope mini: Sensors
+
+
+
+
+Einschätzungen der Erdbebenrisiken in Europa basierend auf Messungen mit verschiedenen Sensoren.
+Einschätzungen der Erdbebenrisiken in Europa basierend auf Messungen mit verschiedenen Sensoren.
+
+
+
+
+Quelle: http://www.efehr.org/Earthquake-risk/risk-map
+Quelle: http://www.efehr.org/Earthquake-risk/risk-map
+
+
+
+
+Europa liegt auf einer einzigen großen sogenannten Kontinentalplatte. An deren Rändern kommt es immer wieder zu Erdbeben. Vor allem in einigen Ländern in den Alpen, am Mittelmeer und am Schwarzem Meer wackelt oft die Erde. Zu diesen Ländern gehören die Türkei, Österreich, Bulgarien, Kroatien, Zypern, Griechenland, Italien, Rumänien und Slowenien. Europa ist aber vergleichsweise wenig von Erdbeben betroffen; eine Ausnahme war das große Erdbeben in der Türkei am 6. Februar 2023, bei dem viele Menschen starben. Die häufigsten Erdbeben treten jedoch an den Rändern der Pazifisches Platte, also an der Westküste von Südamerika, den USA und im Osten Asiens und Australiens auf.
+Europa liegt auf einer einzigen großen sogenannten Kontinentalplatte. An deren Rändern kommt es immer wieder zu Erdbeben. Vor allem in einigen Ländern in den Alpen, am Mittelmeer und am Schwarzem Meer wackelt oft die Erde. Zu diesen Ländern gehören die Türkei, Österreich, Bulgarien, Kroatien, Zypern, Griechenland, Italien, Rumänien und Slowenien. Europa ist aber vergleichsweise wenig von Erdbeben betroffen; eine Ausnahme war das große Erdbeben in der Türkei am 6. Februar 2023, bei dem viele Menschen starben. Die häufigsten Erdbeben treten jedoch an den Rändern der Pazifisches Platte, also an der Westküste von Südamerika, den USA und im Osten Asiens und Australiens auf.
+
+Auch in Deutschland wackelt hin und wieder die Erde. Mehrere hundert Erdbeben werden hier jedes Jahr gemessen. Allerdings sind die meisten so schwach, dass nur sehr empfindliche Geräte sie erkennen können. Schäden richten sie nur selten an.
+Auch in Deutschland wackelt hin und wieder die Erde. Mehrere hundert Erdbeben werden hier jedes Jahr gemessen. Allerdings sind die meisten so schwach, dass nur sehr empfindliche Geräte sie erkennen können. Schäden richten sie nur selten an.
+
+
+
+
+Schaue dir die ausgegebenen Werte und die passenden Code-Blöcke der unterschiedlichen Sensoren an.
+Schaue dir die ausgegebenen Werte und die passenden Code-Blöcke der unterschiedlichen Sensoren an.
+
+
+
+
+4
+4
+
+
+
+
+Lichtsensor
+Lichtsensor
+
+
+
+
+Die LED-Matrix beim Calliope mini ist gleichzeitig auch der Lichtsensor,mit dem die Stärke des Umgebungslichts gemessen werden kann.
+Die LED-Matrix beim Calliope mini ist gleichzeitig auch der Lichtsensor,mit dem die Stärke des Umgebungslichts gemessen werden kann.
+
+
+
+
+Ausgegeben wird die Helligkeit im Wertebereich 0 (dunkel) - 255 (hell).
+Ausgegeben wird die Helligkeit im Wertebereich 0 (dunkel) - 255 (hell).
+
+
+
+
+Was ist denn hier passiert?
+Was ist denn hier passiert?
+
+
+
+
+Temperatursensor
+Temperatursensor
+
+
+
+
+Der Temperatursensor befindet sich im Prozessor undmisst die Umgebungstemperatur.
+Der Temperatursensor befindet sich im Prozessor undmisst die Umgebungstemperatur.
+
+
+
+
+Ausgegeben werden die Werte in Grad Celsius im Wertebereich -5°C bis 50°C.
+Ausgegeben werden die Werte in Grad Celsius im Wertebereich -5°C bis 50°C.
+
+
+
+
+Scanne den QR-Code!
+Scan the QR code!
+
+
+
+
+Lektion 4 - Calliope mini: Sensoren
+Lesson 4 - Calliope mini: Sensors
+
+
+
+
+Lektion 4 - Calliope mini: Sensoren
+Lesson 4 - Calliope mini: Sensors
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Kompass
+Kompass
+
+
+
+
+Was hast du heute erfahren, das du dir unbedingt merken möchtest?Verwende die Fachbegriffe bei der Beantwortung der Fragen.
+What have you learned today that you really want to remember? Use the technical terms when answering the questions.
+
+
+
+
+Der Kompass misst magnetische Felder und zeigt die Himmelsrichtungen an.
+Der Kompass misst magnetische Felder und zeigt die Himmelsrichtungen an.
+
+
+
+
+Sensor: Hardware, die Informationen aus der Umwelt aufnimmt und eine Reaktion auslöst.
+Sensor: Hardware, die Informationen aus der Umwelt aufnimmt und eine Reaktion auslöst.
+
+Debugging: Auffinden und Beheben von Problemen in einem Algorithmus oder Programm.
+Debugging: Auffinden und Beheben von Problemen in einem Algorithmus oder Programm.
+
+Variable: Ein Platzhalter für eine Information, die in einem Computer gespeichert und geändert werden kann.
+Variable: Ein Platzhalter für eine Information, die in einem Computer gespeichert und geändert werden kann.
+
+Logik: Eine Art von Code, der verwendet wird, um zu antworten, wenn bestimmte Bedingungen erfüllt sind.
+Logik: Eine Art von Code, der verwendet wird, um zu antworten, wenn bestimmte Bedingungen erfüllt sind.
+
+Bedingungen: Code, der nur unter bestimmten Voraussetzungen ausgeführt wird und einer bestimmten Logik unterliegt.
+Bedingungen: Code, der nur unter bestimmten Voraussetzungen ausgeführt wird und einer bestimmten Logik unterliegt.
+
+Lagesensor: Der Lagesensor erfasst Bewegungen entlang der X-, Y- und Z-Achse und Veränderungen der Beschleunigung.
+Lagesensor: Der Lagesensor erfasst Bewegungen entlang der X-, Y- und Z-Achse und Veränderungen der Beschleunigung.
+
+
+
+
+Ausgegeben wird die Ausrichtung in 0° bis 360° (mit Kalibrierung).
+Ausgegeben wird die Ausrichtung in 0° bis 360° (mit Kalibrierung).
+
+
+
+
+Mikrofon
+Mikrofon
+
+
+
+
+Das Mikrofon ist der Lautstärkesensor des Calliope mini. Mit dem Lautstärkesensor kann die Umgebungslautstärke gemessen werden.
+Das Mikrofon ist der Lautstärkesensor des Calliope mini. Mit dem Lautstärkesensor kann die Umgebungslautstärke gemessen werden.
+
+
+
+
+5
+5
+
+
+
+
+Frühwarnsysteme gestalten: Nenne einen Sensor, den wir in dieser Lektion verwendet haben und wie er zur Messung einer Naturgefahr nützlich sein könnte.
+Frühwarnsysteme gestalten: Nenne einen Sensor, den wir in dieser Lektion verwendet haben und wie er zur Messung einer Naturgefahr nützlich sein könnte.
+
+Naturgefahren: Waldbrand, Dürre, Überschwemmung, Hitzewelle, Erdbeben.
+Naturgefahren: Waldbrand, Dürre, Überschwemmung, Hitzewelle, Erdbeben.
+
+
+
+
+Ausgegeben wird die Lautstärke im Wertebereich 0 (leise) - 255 (laut).
+Ausgegeben wird die Lautstärke im Wertebereich 0 (leise) - 255 (laut).
+
+
+
+
+Lage- und Beschleunigungssensor
+Lage- und Beschleunigungssensor
+
+
+
+
+Der integrierte Lage- und Beschleunigungssensor des Calliope mini misst, in welcher Position sich der Calliope mini gerade befindet. Er kann auch feststellen, ob der Calliope mini geschüttelt wird.
+Der integrierte Lage- und Beschleunigungssensor des Calliope mini misst, in welcher Position sich der Calliope mini gerade befindet. Er kann auch feststellen, ob der Calliope mini geschüttelt wird.
+
+
+
+
+6
+6
+
+
+
+
+Gibt es Naturkatastrophen, die mit Calliope mini Sensoren nur schwer zu überwachen sind? Wenn ja, warum?
+Gibt es Naturkatastrophen, die mit Calliope mini Sensoren nur schwer zu überwachen sind? Wenn ja, warum?
+
+
+
+
+Wenn der Calliope mini flach auf einer Oberfläche liegt und die LED-Matrix nach oben zeigt, ist x gleich 0, y gleich 0, z gleich -1023 und die Stärke gleich 1023.
+Wenn der Calliope mini flach auf einer Oberfläche liegt und die LED-Matrix nach oben zeigt, ist x gleich 0, y gleich 0, z gleich -1023 und die Stärke gleich 1023.
+
+
+
+
+Lektion 4 - Calliope mini: Sensoren
+Lesson 4 - Calliope mini: Sensors
+
+
+
+
+Lektion 4 - Calliope mini: Sensoren
+Lesson 4 - Calliope mini: Sensors
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+7
+7
+
+
+
+
+Computational Thinking - Unterteilung: Wie hilft dir die Unterteilung inEingabe- oder Ausgabemöglichkeiten bei der Lösung der Aufgabe?
+Computational Thinking - Unterteilung: Wie hilft dir die Unterteilung inEingabe- oder Ausgabemöglichkeiten bei der Lösung der Aufgabe?
+
+
+
+
+CALLIOPE MINITOUCH-PINS
+CALLIOPE MINITOUCH-PINS
+
+
+
+
+Link zum Programm:
+Link zum Programm:
+
+https://makecode.calliope.cc/_CPxJpwAxuCay
+https://makecode.calliope.cc/_CPxJpwAxuCay
+
+
+
+
+Die Touch-Pins des Calliope minireagieren auf Berührung.
+Die Touch-Pins des Calliope minireagieren auf Berührung.
+
+
+
+
+Was möchtest du dir für dein Frühwarnsystem merken?Denke an den Code und die Gestaltung - Grenzwerte, Abfragen und Bedingungen.
+Was möchtest du dir für dein Frühwarnsystem merken?Denke an den Code und die Gestaltung - Grenzwerte, Abfragen und Bedingungen.
+
+
+
+
+Lektion 5 - Calliope mini: Touch-Pins
+Lesson 5 - Calliope mini: Touch-Pins
+
+
+
+
+Was fandest du besonders spannend?
+Was fandest du besonders spannend?
+
+
+
+
+Woran hast du etwas länger getüftelt?
+Woran hast du etwas länger getüftelt?
+
+
+
+
+Lektion 4 - Calliope mini: Sensoren
+Lesson 4 - Calliope mini: Sensors
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Touch-Pins
+Touch-Pins
+
+
+
+
+Lektion 5
+Lektion 5
+
+
+
+
+Die Touch-Pins reagieren auf Berührung und lösen so - wie die Knöpfe - Befehle aus. Die Touch-Pins ermöglichen es, mit den Fingern einen Stromkreis zu schließen.
+Die Touch-Pins reagieren auf Berührung und lösen so - wie die Knöpfe - Befehle aus. Die Touch-Pins ermöglichen es, mit den Fingern einen Stromkreis zu schließen.
+
+
+
+
+Die Calliope mini Touch-Pins reagieren auf Berührung. Wie kann man den Wasserstand eines Gewässers mit dem Calliope mini messen?
+Die Calliope mini Touch-Pins reagieren auf Berührung. Wie kann man den Wasserstand eines Gewässers mit dem Calliope mini messen?
+
+
+
+
+1
+1
+
+
+
+
+Praxisbeispiel: Lies den folgenden Artikel aufmerksam durch.
+Praxisbeispiel: Lies den folgenden Artikel aufmerksam durch.
+
+
+
+
+StormSense
+StormSense
+
+
+
+
+Mit Hilfe von Strom leitenden Materialien, wie zum Beispiel Krokodilklemmen, Alufolie oder auch leitende Knete kannst du die Touch-Pins erweitern.
+Mit Hilfe von Strom leitenden Materialien, wie zum Beispiel Krokodilklemmen, Alufolie oder auch leitende Knete kannst du die Touch-Pins erweitern.
+
+
+
+
+StormSense ist ein Frühwarnsystem, das mit über 40 Sensoren in den Städten Virginia Beach (VA), Newport News (VA) und Norfolk (VA) den Wasserstand überwacht. Die 36-stündigen Vorhersagen werden stündlich aktualisiert und enthalten Sturmflutwarnungen, um die Bevölkerung vor Überschwemmungen aufgrund erhöhter Wasserstände bei Stürmen zu warnen. Das StormSense-System wurde in der Amazon Web Services (AWS) Cloud entwickelt. Dies ermöglicht den Nutzern den Zugang zu Informationen über Gefahren durch Hochwasser. Dazu gehören regelmäßig aktualisierte interaktive Webkarten, die die StormSense-Wasserstände in Echtzeit zeigen, die alle sechs Minuten aktualisiert werden. Die gesammelten Daten vermitteln ein klares Bild davon, wo Überschwemmungen auftreten und wie hoch die Wahrscheinlichkeit ist, dass sie auftreten.
+StormSense ist ein Frühwarnsystem, das mit über 40 Sensoren in den Städten Virginia Beach (VA), Newport News (VA) und Norfolk (VA) den Wasserstand überwacht. Die 36-stündigen Vorhersagen werden stündlich aktualisiert und enthalten Sturmflutwarnungen, um die Bevölkerung vor Überschwemmungen aufgrund erhöhter Wasserstände bei Stürmen zu warnen. Das StormSense-System wurde in der Amazon Web Services (AWS) Cloud entwickelt. Dies ermöglicht den Nutzern den Zugang zu Informationen über Gefahren durch Hochwasser. Dazu gehören regelmäßig aktualisierte interaktive Webkarten, die die StormSense-Wasserstände in Echtzeit zeigen, die alle sechs Minuten aktualisiert werden. Die gesammelten Daten vermitteln ein klares Bild davon, wo Überschwemmungen auftreten und wie hoch die Wahrscheinlichkeit ist, dass sie auftreten.
+
+
+
+
+Minus-Pinnicht vergessen!
+Minus-Pinnicht vergessen!
+
+
+
+
+Welche Fragen hast du? Was meinst du, messen die Sensoren? Was denkst du, warum manche Länder Frühwarnsysteme haben und manche nicht? 
+Welche Fragen hast du? Was meinst du, messen die Sensoren? Was denkst du, warum manche Länder Frühwarnsysteme haben und manche nicht? 
+
+
+
+
+2
+2
+
+
+
+
+Tipp: Es ist wichtig, gleichzeitig den Minus (-) Pin zu berühren, um eine Pin-Eingabe auszulösen. Halte den Calliope mini mit einer Hand am Minus (-) Pin fest und berühre mit einem Finger der anderen Hand einen der anderen Pins.
+Tipp: Es ist wichtig, gleichzeitig den Minus (-) Pin zu berühren, um eine Pin-Eingabe auszulösen. Halte den Calliope mini mit einer Hand am Minus (-) Pin fest und berühre mit einem Finger der anderen Hand einen der anderen Pins.
+
+
+
+
+Bildquelle:
+Bildquelle:
+
+StormSense: https://aws.amazon.com/de/blogs/publicsector/stormsense-automated-flood-alerts-using-integrated-real-time-iot-sensors
+StormSense: https://aws.amazon.com/de/blogs/publicsector/stormsense-automated-flood-alerts-using-integrated-real-time-iot-sensors
+
+
+
+
+Lektion 5 - Calliope mini: Touch-Pins
+Lesson 5 - Calliope mini: Touch-Pins
+
+
+
+
+Lektion 5 - Calliope mini: Touch-Pins
+Lesson 5 - Calliope mini: Touch-Pins
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Was hast du heute erfahren, das du dir unbedingt merken möchtest?Verwende die Fachbegriffe bei der Beantwortung der Fragen.
+What have you learned today that you really want to remember? Use the technical terms when answering the questions.
+
+
+
+
+4
+4
+
+
+
+
+Computational Thinking - Überprüfen: Wie kannst du feststellen, ob deine Programmierung der Touch-Pins funktioniert hat oder nicht?
+Computational Thinking - Überprüfen: Wie kannst du feststellen, ob deine Programmierung der Touch-Pins funktioniert hat oder nicht?
+
+
+
+
+Stromkreis: Ein Leitungssystem zur Übertragung von Elektrizität.
+Stromkreis: Ein Leitungssystem zur Übertragung von Elektrizität.
+
+Geschlossener Stromkreis: Lässt den Strom in einer Schaltung durch die Ein- und Ausgänge fließen.
+Geschlossener Stromkreis: Lässt den Strom in einer Schaltung durch die Ein- und Ausgänge fließen.
+
+Offener Stromkreis: Unterbricht die Leitung und der Strom kann nicht fließen (schaltet ab!).
+Offener Stromkreis: Unterbricht die Leitung und der Strom kann nicht fließen (schaltet ab!).
+
+Leiter: Ein Material, das Strom fließen lässt.
+Leiter: Ein Material, das Strom fließen lässt.
+
+Isolator: Ein Material, das keinen Strom fließen lässt.
+Isolator: Ein Material, das keinen Strom fließen lässt.
+
+
+
+
+3
+3
+
+
+
+
+Frühwarnsysteme gestalten: Wie können die Touch-Pins zur Überwachung von Wassermengen eingesetzt werden?
+Frühwarnsysteme gestalten: Wie können die Touch-Pins zur Überwachung von Wassermengen eingesetzt werden?
+
+
+
+
+Link zum Programm:
+Link zum Programm:
+
+https://makecode.calliope.cc/_KTbCAzEw4511
+https://makecode.calliope.cc/_KTbCAzEw4511
+
+
+
+
+Skizziere deine Überlegung.
+Skizziere deine Überlegung.
+
+
+
+
+Was möchtest du dir für dein Frühwarnsystem merken? Denke an den Code, die Gestaltung und die unterschiedlichen Zustände deines Warnsystems.
+Was möchtest du dir für dein Frühwarnsystem merken? Denke an den Code, die Gestaltung und die unterschiedlichen Zustände deines Warnsystems.
+
+
+
+
+Was fandest du besonders spannend?
+Was fandest du besonders spannend?
+
+
+
+
+Woran hast du etwas länger getüftelt?
+Woran hast du etwas länger getüftelt?
+
+
+
+
+Lektion 5 - Calliope mini: Touch-Pins
+Lesson 5 - Calliope mini: Touch-Pins
+
+
+
+
+Lektion 5 - Calliope mini: Touch-Pins
+Lesson 5 - Calliope mini: Touch-Pins
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Mache dich vertraut mit den Funk-Funktionen des Calliope mini.
+Mache dich vertraut mit den Funk-Funktionen des Calliope mini.
+
+Schaue dir die Möglichkeiten an, Nachrichten zu senden und zu empfangen. Beachte die unterschiedlichen Datentypen - Text und Zahl.
+Schaue dir die Möglichkeiten an, Nachrichten zu senden und zu empfangen. Beachte die unterschiedlichen Datentypen - Text und Zahl.
+
+
+
+
+Exkurs: Funk  
+Excursus: Funk  
+
+
+
+
+3
+3
+
+
+
+
+Wie können wir Live-Daten nutzen, um Personen über Funk bei Gefahr zu warnen?
+Wie können wir Live-Daten nutzen, um Personen über Funk bei Gefahr zu warnen?
+
+
+
+
+Funk
+Funk
+
+
+
+
+1
+1
+
+
+
+
+Praxisbeispiel: Lies den folgenden Artikel aufmerksam durch.
+Praxisbeispiel: Lies den folgenden Artikel aufmerksam durch.
+
+
+
+
+Der Calliope mini besitzt eine kleine Antenne, über die Nachrichten zwischen verschiedenen Calliope mini übermittelt werden können. Die Programmblöcke, die hierfür benötigt werden, müssen in die Bibliothek hinzugefügt werden.
+Der Calliope mini besitzt eine kleine Antenne, über die Nachrichten zwischen verschiedenen Calliope mini übermittelt werden können. Die Programmblöcke, die hierfür benötigt werden, müssen in die Bibliothek hinzugefügt werden.
+
+Klicke auf Erweiterungen und wähle Funk aus.
+Klicke auf Erweiterungen und wähle Funk aus.
+
+
+
+
+Grillo: Benachrichtigungen an die Bevölkerung
+Grillo: Benachrichtigungen an die Bevölkerung
+
+
+
+
+Die Grillo-Sensoren erkennen Bodenbewegungen durch seismische Wellen und senden diese Live-Daten an eine Cloud-Plattform. Bei der Cloud-Plattform handelt es sich um einen Server oder Standort, der alle von den Sensoren gesammelten Live-Daten verarbeitet und eine Benachrichtigung an die Menschen in der Region sendet, wenn eine Gefahr erkannt wird. All dies geschieht in weniger als einer Sekunde!
+Die Grillo-Sensoren erkennen Bodenbewegungen durch seismische Wellen und senden diese Live-Daten an eine Cloud-Plattform. Bei der Cloud-Plattform handelt es sich um einen Server oder Standort, der alle von den Sensoren gesammelten Live-Daten verarbeitet und eine Benachrichtigung an die Menschen in der Region sendet, wenn eine Gefahr erkannt wird. All dies geschieht in weniger als einer Sekunde!
+
+
+
+
+1
+1
+
+
+
+
+2
+2
+
+
+
+
+Danach erscheint die Funk Kategorie in deiner Bibliothek.
+Danach erscheint die Funk Kategorie in deiner Bibliothek.
+
+
+
+
+Funkgruppe
+Funkgruppe
+
+
+
+
+Es kann über verschiedene Funkgruppen, die in der Programmierung festgelegt werden, gefunkt werden. Nur Calliope mini der gleichen Funkgruppe können untereinander kommunizieren.
+Es kann über verschiedene Funkgruppen, die in der Programmierung festgelegt werden, gefunkt werden. Nur Calliope mini der gleichen Funkgruppe können untereinander kommunizieren.
+
+
+
+
+Quelle: https://aws.amazon.com/de/blogs/aws/how-grillo-built-a-low-cost-earthquake-early-warning-system-on-aws
+Quelle: https://aws.amazon.com/de/blogs/aws/how-grillo-built-a-low-cost-earthquake-early-warning-system-on-aws
+
+
+
+
+2
+2
+
+
+
+
+Welche Fragen hast du? Wie können Daten gesendet oder empfangen werden? 
+Welche Fragen hast du? Wie können Daten gesendet oder empfangen werden? 
+
+
+
+
+Sende Text/Zahlen
+Sende Text/Zahlen
+
+
+
+
+Daten innerhalb einer Funkgruppe versenden.
+Daten innerhalb einer Funkgruppe versenden.
+
+
+
+
+Exkurs: Funken mit dem Calliope mini
+Excursus: Funken mit dem Calliope mini
+
+
+
+
+Exkurs: Funken mit dem Calliope mini
+Excursus: Funken mit dem Calliope mini
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+5
+5
+
+
+
+
+Computational Thinking - Abstraktion: Gibt es Möglichkeiten, den Warnhinweis so zu vereinfachen, dass dieser schnell verstanden wird? Denke über die Verwendung von Symbolen, Farben oder Tönen nach.
+Computational Thinking - Abstraktion: Gibt es Möglichkeiten, den Warnhinweis so zu vereinfachen, dass dieser schnell verstanden wird? Denke über die Verwendung von Symbolen, Farben oder Tönen nach.
+
+
+
+
+Empfange Text/Zahlen
+Empfange Text/Zahlen
+
+
+
+
+Daten innerhalb einer Funkgruppe empfangen.
+Daten innerhalb einer Funkgruppe empfangen.
+
+
+
+
+„receivedString“ und „receivedNumber“ sind vorab definierte Variablen. In diesen Variablen werden die über Funk empfangenen Daten gespeichert. Du kannst sie nicht umbenennen, aber jederzeit innerhalb der „Empfangen“-Funktion verwenden.
+„receivedString“ und „receivedNumber“ sind vorab definierte Variablen. In diesen Variablen werden die über Funk empfangenen Daten gespeichert. Du kannst sie nicht umbenennen, aber jederzeit innerhalb der „Empfangen“-Funktion verwenden.
+
+
+
+
+Link zum Programm:
+Link zum Programm:
+
+https://makecode.calliope.cc/_CtJYmvEUx59H
+https://makecode.calliope.cc/_CtJYmvEUx59H
+
+
+
+
+Was möchtest du dir für dein Frühwarnsystem merken? Notiere wichtige Hinweise für die Verwendung der beiden Funk Funktionen - sende und wenn empfangen.
+Was möchtest du dir für dein Frühwarnsystem merken? Notiere wichtige Hinweise für die Verwendung der beiden Funk Funktionen - sende und wenn empfangen.
+
+
+
+
+Was hast du heute erfahren, das du dir unbedingt merken möchtest?Verwende die Fachbegriffe bei der Beantwortung der Fragen.
+What have you learned today that you really want to remember? Use the technical terms when answering the questions.
+
+
+
+
+Radiowellen: Radiowellen sind die größte Wellenart im elektromagnetischen Spektrum.Sie können verwendet werden, um Nachrichten über große Entfernungen durch die Luft zu senden.Antenne: Hardware, die Funkwellen sendet und empfängt.
+Radiowellen: Radiowellen sind die größte Wellenart im elektromagnetischen Spektrum.Sie können verwendet werden, um Nachrichten über große Entfernungen durch die Luft zu senden.Antenne: Hardware, die Funkwellen sendet und empfängt.
+
+
+
+
+4
+4
+
+
+
+
+Frühwarnsysteme gestalten: Warum verwenden Frühwarnsysteme Funkübertragungen? Wie wird das System dadurch verbessert?
+Frühwarnsysteme gestalten: Warum verwenden Frühwarnsysteme Funkübertragungen? Wie wird das System dadurch verbessert?
+
+
+
+
+Was fandest du besonders spannend?
+Was fandest du besonders spannend?
+
+
+
+
+Woran hast du etwas länger getüftelt?
+Woran hast du etwas länger getüftelt?
+
+
+
+
+Exkurs: Funken mit dem Calliope mini
+Excursus: Funken mit dem Calliope mini
+
+
+
+
+Exkurs: Funken mit dem Calliope mini
+Excursus: Funken mit dem Calliope mini
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Lektion 6
+Lektion 6
+
+
+
+
+Teil 1: Entwirf dein eigenes Frühwarnsystem  
+Part 1: Entwirf dein eigenes Frühwarnsystem  
+
+
+
+
+Wie können wir ein System bauen, das die Umwelt kontinuierlich überwacht, um Gefahren zu erkennen und die Bevölkerung zu warnen?
+Wie können wir ein System bauen, das die Umwelt kontinuierlich überwacht, um Gefahren zu erkennen und die Bevölkerung zu warnen?
+
+
+
+
+1
+1
+
+
+
+
+Wovor möchtest du warnen - Überschwemmung, Dürre, Waldbrände, Erdbeben - oder was möchtest du an bestehenden Frühwarnsystemen verbessern?
+Wovor möchtest du warnen - Überschwemmung, Dürre, Waldbrände, Erdbeben - oder was möchtest du an bestehenden Frühwarnsystemen verbessern?
+
+
+
+
+IDEE, ENTWURF & UMSETZUNG
+IDEE, ENTWURF & UMSETZUNG
+
+
+
+
+2
+2
+
+
+
+
+Computational Thinking - Entscheidungen:
+Computational Thinking - Entscheidungen:
+
+Welche Hardware und Software möchtest du in deinen Entwurf integrieren?
+Welche Hardware und Software möchtest du in deinen Entwurf integrieren?
+
+
+
+
+Eigene Prototypen entwickeln und ausprobieren.
+Eigene Prototypen entwickeln und ausprobieren.
+
+
+
+
+Hardware (Calliope mini)
+Hardware (Calliope mini)
+
+
+
+
+Eingabe
+Eingabe
+
+
+
+
+Sensoren
+Sensors
+
+
+
+
+Ausgabe
+Ausgabe
+
+
+
+
+Knöpfe
+Knöpfe
+
+
+
+
+Lagesensor
+Lagesensor
+
+
+
+
+LEDs
+LEDs
+
+
+
+
+Touch-Pins
+Touch-Pins
+
+
+
+
+Lichtsensor
+Lichtsensor
+
+
+
+
+Lautsprecher
+Loudspeaker
+
+
+
+
+Temperatursensor
+Temperatursensor
+
+
+
+
+Krokodil-Klemmen
+Krokodil-Klemmen
+
+
+
+
+Funk
+Funk
+
+
+
+
+Lektion 6 - Eigene Frühwarnsysteme
+Lesson 6 - Own early warning systems
+
+
+
+
+Software (MakeCode)
+Software (MakeCode)
+
+
+
+
+dauerhaft
+permanent
+
+
+
+
+Funk
+Radio
+
+
+
+
+Variablen
+Variables
+
+
+
+
+Knöpfe
+Buttons
+
+
+
+
+Logik
+Logic
+
+
+
+
+Musik
+Music
+
+
+
+
+Touch-Pins
+Touch-Pins
+
+
+
+
+Lektion 6 - Eigene Frühwarnsysteme
+Lektion 6 - Eigene Frühwarnsysteme
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+3
+3
+
+
+
+
+Was wäre ein richtig nützliches Frühwarnsystem? Denke wie eine Erfinderin oder ein Erfinder! Schreibe oder male bis zu drei Ideen auf:
+Was wäre ein richtig nützliches Frühwarnsystem? Denke wie eine Erfinderin oder ein Erfinder! Schreibe oder male bis zu drei Ideen auf:
+
+
+
+
+5
+5
+
+
+
+
+Zeichne auf der nächsten Seite einen Entwurf, der die Funktionsweise deines Systems zeigt. Versuche, alle aufgelisteten Punkte zu berücksichtigen und danach abzuhaken. 
+Zeichne auf der nächsten Seite einen Entwurf, der die Funktionsweise deines Systems zeigt. Versuche, alle aufgelisteten Punkte zu berücksichtigen und danach abzuhaken. 
+
+
+
+
+Benutzte Hardware
+Benutzte Hardware
+
+
+
+
+Benutzte Software
+Benutzte Software
+
+
+
+
+1
+1
+
+
+
+
+2
+2
+
+
+
+
+3
+3
+
+
+
+
+Eingabe
+Eingabe
+
+
+
+
+Ablaufplan mit Symbolen und Pfeilen
+Ablaufplan mit Symbolen und Pfeilen
+
+
+
+
+Ausgabe
+Ausgabe
+
+
+
+
+Programmierung
+Programmierung
+
+
+
+
+Sensoren
+Sensors
+
+
+
+
+Beispiel für einen Programmablaufplan
+Beispiel für einen Programmablaufplan
+
+
+
+
+4
+4
+
+
+
+
+Wähle eine Lieblingsidee aus oder kombiniere mehrere Ideen zu einer Lösung.Was macht dein Frühwarnsystem? Vervollständige den folgenden Satz und bringe deine Lösung auf den Punkt:
+Wähle eine Lieblingsidee aus oder kombiniere mehrere Ideen zu einer Lösung.Was macht dein Frühwarnsystem? Vervollständige den folgenden Satz und bringe deine Lösung auf den Punkt:
+
+
+
+
+6
+6
+
+
+
+
+Barrierefreiheit: Wie wird die Barrierefreiheit in deinem Frühwarnsystem berücksichtigt? Denke an mögliche Sinne, die beeinträchtigt sein könnten - Sehschwäche, Schwerhörigkeit.
+Barrierefreiheit: Wie wird die Barrierefreiheit in deinem Frühwarnsystem berücksichtigt? Denke an mögliche Sinne, die beeinträchtigt sein könnten - Sehschwäche, Schwerhörigkeit.
+
+
+
+
+Zum Beispiel: Mein Frühwarnsystem misst die Erschütterung. Ist die gemessene Erschütterung zu groß, wird ein lauter Ton, ein rotes Licht und ein Bild als Alarmsignal gesendet, um vor Erdbeben zu warnen.
+Zum Beispiel: Mein Frühwarnsystem misst die Erschütterung. Ist die gemessene Erschütterung zu groß, wird ein lauter Ton, ein rotes Licht und ein Bild als Alarmsignal gesendet, um vor Erdbeben zu warnen.
+
+
+
+
+Lektion 6 - Eigene Frühwarnsysteme
+Lektion 6 - Eigene Frühwarnsysteme
+
+
+
+
+Lektion 6 - Eigene Frühwarnsysteme
+Lektion 6 - Eigene Frühwarnsysteme
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Teil 2: Umsetzung deines eigenen Frühwarnsystems  
+Part 2: Umsetzung deines eigenen Frühwarnsystems  
+
+
+
+
+Erkläre anhand einer Skizze, wie deine Idee Menschen bei Naturkatastrophen helfen kann! (Tipp: Benutze Sprechblasen!)
+Erkläre anhand einer Skizze, wie deine Idee Menschen bei Naturkatastrophen helfen kann! (Tipp: Benutze Sprechblasen!)
+
+
+
+
+7
+7
+
+
+
+
+Mache eine Skizze oder ein Foto von deinem funktionierenden Prototypen und füge oder klebe es ein.
+Mache eine Skizze oder ein Foto von deinem funktionierenden Prototypen und füge oder klebe es ein.
+
+
+
+
+Lektion 6 - Eigene Frühwarnsysteme
+Lektion 6 - Eigene Frühwarnsysteme
+
+
+
+
+Lektion 6 - Eigene Frühwarnsysteme
+Lektion 6 - Eigene Frühwarnsysteme
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+8
+8
+
+
+
+
+Beschreibe den Ablauf deiner Programmierung.
+Beschreibe den Ablauf deiner Programmierung.
+
+
+
+
+9
+9
+
+
+
+
+Füge eine Abbildung, den Projekt-Link oder den QR Code deines Programms ein.
+Füge eine Abbildung, den Projekt-Link oder den QR Code deines Programms ein.
+
+
+
+
+QR-Code zudeinem Programm!
+QR-Code zudeinem Programm!
+
+
+
+
+Projektlink: https://makecode.calliope.cc/
+Projektlink: https://makecode.calliope.cc/
+
+
+
+
+10
+10
+
+
+
+
+Funktioniert dein Code so, wie du es geplant hast? Warum oder warum nicht?
+Funktioniert dein Code so, wie du es geplant hast? Warum oder warum nicht?
+
+
+
+
+11
+11
+
+
+
+
+Computational Thinking - Durchhaltevermögen: Welche Probleme hattest du bei der Entwicklung deines Frühwarnsystems und wie hast du versucht, sie zu lösen?
+Computational Thinking - Durchhaltevermögen: Welche Probleme hattest du bei der Entwicklung deines Frühwarnsystems und wie hast du versucht, sie zu lösen?
+
+
+
+
+Lektion 6 - Eigene Frühwarnsysteme
+Lektion 6 - Eigene Frühwarnsysteme
+
+
+
+
+Lektion 6 - Eigene Frühwarnsysteme
+Lektion 6 - Eigene Frühwarnsysteme
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Lektion 7
+Lektion 7
+
+
+
+
+Wie möchtest du dein Frühwarnsystem der Klasse präsentieren?
+Wie möchtest du dein Frühwarnsystem der Klasse präsentieren?
+
+
+
+
+1
+1
+
+
+
+
+Von anderen lernen: Notiere gute Ideen, die du bei der Vorstellung der Frühwarnsystem-Prototypen anderer gehört hast.
+Von anderen lernen: Notiere gute Ideen, die du bei der Vorstellung der Frühwarnsystem-Prototypen anderer gehört hast.
+
+
+
+
+PRÄSENTATIONDES PROTOTYPEN
+PRÄSENTATIONDES PROTOTYPEN
+
+
+
+
+Feedback geben und erhalten.
+Feedback geben und erhalten.
+
+
+
+
+2
+2
+
+
+
+
+Verbesserung: Wenn du mehr Zeit gehabt hättest, wie würdest du dein Frühwarnsystem verbessern?
+Verbesserung: Wenn du mehr Zeit gehabt hättest, wie würdest du dein Frühwarnsystem verbessern?
+
+
+
+
+Lektion 7 - Präsentation des Prototypen
+Lektion 7 - Präsentation des Prototypen
+
+
+
+
+Lektion 7 - Präsentation des Prototypen
+Lektion 7 - Präsentation des Prototypen
+
+
+
+
+Notizen
+Notizen
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Notizen
+Notizen
+
+
+
+
+Notizen
+Notizen
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Notizen
+Notizen
+
+
+
+
+Notizen
+Notizen
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Notizen
+Notizen
+
+
+
+
+Notizen
+Notizen
+
+
+
+
+Milderung der Auswirkungen von Naturkatastrophen
+Mitigating the effects of natural disasters
+
+
+
+
+Weitere Informationen
+Weitere Informationen
+
+
+
+
+Display, Hacken, Coden – was bedeutet das überhaupt?Wir haben eine Seite mit den am häufigsten benutzten Begriffen zusammengetragen. Unter: https://calliope.cc/begriffe findest du kurze Erklärungen zu Abkürzungen und englischen Fachwörtern, die dir beim Programmieren begegnen können. Schau sie dir an und schon weißt du, was es mit Bugs, Pins und PWM auf sich hat.
+Display, Hacken, Coden – was bedeutet das überhaupt?Wir haben eine Seite mit den am häufigsten benutzten Begriffen zusammengetragen. Unter: https://calliope.cc/begriffe findest du kurze Erklärungen zu Abkürzungen und englischen Fachwörtern, die dir beim Programmieren begegnen können. Schau sie dir an und schon weißt du, was es mit Bugs, Pins und PWM auf sich hat.
+
+
+
+
+Tipps für die mobile Nutzung
+Tipps für die mobile Nutzung
+
+
+
+
+Der Calliope mini kann mobil per Bluetooth® programmiert werden. Dazu wird die Calliope mini App benötigt. Um die Datei nach dem Programmieren zu übertragen, muss der Calliope mini in den Bluetooth-Modus versetzt werden.
+Der Calliope mini kann mobil per Bluetooth® programmiert werden. Dazu wird die Calliope mini App benötigt. Um die Datei nach dem Programmieren zu übertragen, muss der Calliope mini in den Bluetooth-Modus versetzt werden.
+
+
+
+
+• Halte Tasten A+B gedrückt.
+• Halte Tasten A+B gedrückt.
+
+• Drücke zusätzlich die Reset Taste für 1 Sekunde.
+• Drücke zusätzlich die Reset Taste für 1 Sekunde.
+
+• Halte die Tasten A+B so lange gedrückt, bis die Bluetooth-Animation beendet ist.
+• Halte die Tasten A+B so lange gedrückt, bis die Bluetooth-Animation beendet ist.
+
+• Das individuelle ID-Muster erscheint auf deinem Calliope mini.
+• Das individuelle ID-Muster erscheint auf deinem Calliope mini.
+
+
+
+
+• Über das rote Calliope mini Icon im Bereich „Editoren und Programme“ öffnest du das Verbindungsfenster.
+• Über das rote Calliope mini Icon im Bereich „Editoren und Programme“ öffnest du das Verbindungsfenster.
+
+• Übertrage das individuelle ID-Muster des Calliope mini auf die Matrix.
+• Übertrage das individuelle ID-Muster des Calliope mini auf die Matrix.
+
+• Wird der Calliope mini gefunden, verbindet er sich automatisch mit der App und ein Smiley erscheint. 
+• Wird der Calliope mini gefunden, verbindet er sich automatisch mit der App und ein Smiley erscheint. 
+
+
+
+
+Projektpartner Amazon Future Engineer
+Projektpartner Amazon Future Engineer
+
+Die kostenlose Bereitstellung dieser Unterrichtsmaterialien wird unterstützt von der Bildungsinitiative „Amazon Future Engineer”. Amazon Future Engineer erleichtert Schüler:innen den Zugang zur Informatikbildung und richtet sich dabei insbesondere an einkommensschwache und sozial benachteiligte Kinder und Jugendliche mit dem Ziel, ihnen dadurch bessere persönliche Zukunftschancen zu bieten.
+Die kostenlose Bereitstellung dieser Unterrichtsmaterialien wird unterstützt von der Bildungsinitiative „Amazon Future Engineer”. Amazon Future Engineer makes it easier for pupils to access computer science education and is aimed in particular at low-income and socially disadvantaged children and young people with the aim of offering them better personal opportunities for the future.
+
+
+
+
+• Jetzt kannst du Programme aus der App über Bluetooth übertragen.
+• Jetzt kannst du Programme aus der App über Bluetooth übertragen.
+
+• Verwende einen Editor, um ein Programm zu erstellen.
+• Verwende einen Editor, um ein Programm zu erstellen.
+
+• Übertrage das Programm in folgenden Schritten:Programm herunterladen, sichern und übertragen. Die Übertragung kann einige Sekunden dauern. Der Fortschritt wird angezeigt.
+- Transfer the program in the following steps:Download, save and transfer the program. The transfer may take a few seconds. Der Fortschritt wird angezeigt.
+
+• Nach Abschluss erscheint das Programm auf dem Calliope mini!
+• Nach Abschluss erscheint das Programm auf dem Calliope mini!
+
+
+
+
+Weitere Informationen zur Nutzung mit mobilen Geräten findest du unter: https://calliope.cc/programmieren/mobil
+Weitere Informationen zur Nutzung mit mobilen Geräten findest du unter: https://calliope.cc/programmieren/mobil
+
+
+
+
+Lizenziert unter Creative Commons Namensnennung 4.0 International
+Licensed under Creative Commons Attribution 4.0 International
+
+Calliope gGmbH
+Calliope gGmbH
+
+
+
+
+Weitere Informationen
+Weitere Informationen
+
