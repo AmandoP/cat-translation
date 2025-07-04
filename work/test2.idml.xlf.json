@@ -1,0 +1,124 @@
+{
+    "filename": "test2.idml.xlf",
+    "files": [
+        {
+            "Stories\/Story_ue7.xml": [
+                [
+                    "BasicCAT can build a local git repository and upload it to a remote repository when the remote uri and account info are set.",
+                    "BasicCAT kann ein lokales Git-Repository erstellen und es in ein entferntes Repository hochladen, wenn die entfernte Uri und die Kontoinformationen festgelegt sind.",
+                    "BasicCAT can build a local git repository and upload it to a remote repository when the remote uri and account info are set.",
+                    "Stories\/Story_ue7.xml",
+                    {
+                        "creator": "AmandoP",
+                        "createdTime": 1751624100445,
+                        "id": "P50B5830A-tu1"
+                    }
+                ],
+                [
+                    "When requesting a git push, the program will fetch the latest changes and update local files.",
+                    "Wenn Sie einen Git-Push anfordern, holt das Programm die letzten Änderungen und aktualisiert die lokalen Dateien.",
+                    " When requesting a git push, the program will fetch the latest changes and update local files.",
+                    "Stories\/Story_ue7.xml",
+                    {
+                        "creator": "AmandoP",
+                        "createdTime": 1751624100631,
+                        "id": "P50B5830A-tu1"
+                    }
+                ],
+                [
+                    "Then new changes in the local repo will be uploaded.",
+                    "Dann werden die neuen Änderungen in das lokale Projektarchiv hochgeladen.",
+                    " Then new changes in the local repo will be uploaded.",
+                    "Stories\/Story_ue7.xml",
+                    {
+                        "creator": "AmandoP",
+                        "createdTime": 1751624100898,
+                        "id": "P50B5830A-tu1"
+                    }
+                ],
+                [
+                    "BasicCAT automatically resolves conflicts according to the creation time of segment’s translation.",
+                    "BasicCAT löst Konflikte automatisch entsprechend der Erstellungszeit der Segmentübersetzung auf.",
+                    " BasicCAT automatically resolves conflicts according to the creation time of segment’s translation.",
+                    "Stories\/Story_ue7.xml",
+                    {
+                        "creator": "AmandoP",
+                        "createdTime": 1751624101210,
+                        "id": "P50B5830A-tu1"
+                    }
+                ],
+                [
+                    "You will almost encounter no conflicts.",
+                    "Sie werden fast keine Konflikte erleben.",
+                    " You will almost encounter no conflicts.",
+                    "Stories\/Story_ue7.xml",
+                    {
+                        "creator": "AmandoP",
+                        "createdTime": 1751624101411,
+                        "id": "P50B5830A-tu1"
+                    }
+                ]
+            ]
+        },
+        {
+            "Stories\/Story_u108.xml": [
+                [
+                    "BasicCAT can build a local git repository and upload it to a remote repository when the remote uri and account info are set.",
+                    "BasicCAT kann ein lokales Git-Repository erstellen und es in ein entferntes Repository hochladen, wenn die entfernte Uri und die Kontoinformationen festgelegt sind.",
+                    "BasicCAT can build a local git repository and upload it to a remote repository when the remote uri and account info are set.",
+                    "Stories\/Story_u108.xml",
+                    {
+                        "creator": "AmandoP",
+                        "createdTime": 1751624101416,
+                        "id": "NFBB05A13-tu1"
+                    }
+                ],
+                [
+                    "When requesting a git push, the program will fetch the latest changes and update local files.",
+                    "Wenn Sie einen Git-Push anfordern, holt das Programm die letzten Änderungen und aktualisiert die lokalen Dateien.",
+                    " When requesting a git push, the program will fetch the latest changes and update local files.",
+                    "Stories\/Story_u108.xml",
+                    {
+                        "creator": "AmandoP",
+                        "createdTime": 1751624101422,
+                        "id": "NFBB05A13-tu1"
+                    }
+                ],
+                [
+                    "Then new changes in the local repo will be uploaded.",
+                    "Dann werden die neuen Änderungen in das lokale Projektarchiv hochgeladen.",
+                    " Then new changes in the local repo will be uploaded.",
+                    "Stories\/Story_u108.xml",
+                    {
+                        "creator": "AmandoP",
+                        "createdTime": 1751624101436,
+                        "id": "NFBB05A13-tu1"
+                    }
+                ],
+                [
+                    "BasicCAT automatically resolves conflicts according to the creation time of segment’s translation.",
+                    "BasicCAT löst Konflikte automatisch entsprechend der Erstellungszeit der Segmentübersetzung auf.",
+                    " BasicCAT automatically resolves conflicts according to the creation time of segment’s translation.",
+                    "Stories\/Story_u108.xml",
+                    {
+                        "creator": "AmandoP",
+                        "createdTime": 1751624101441,
+                        "id": "NFBB05A13-tu1"
+                    }
+                ],
+                [
+                    "You will almost encounter no conflicts.",
+                    "Sie werden fast keine Konflikte erleben.",
+                    " You will almost encounter no conflicts.",
+                    "Stories\/Story_u108.xml",
+                    {
+                        "creator": "AmandoP",
+                        "createdTime": 1751624101453,
+                        "id": "NFBB05A13-tu1"
+                    }
+                ]
+            ]
+        }
+    ],
+    "seg_enabled": false
+}
