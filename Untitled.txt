@@ -641,7 +641,7 @@ Share results
 
 
 Ideeentwickeln undauswählen
-Develop andselect idea.
+Test
 
 
 
